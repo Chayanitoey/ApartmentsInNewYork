@@ -1,0 +1,207 @@
+ul {
+	color: #000000;
+	justify-content: space-between;
+    list-style-type: none;
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: -30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    overflow: hidden;
+    text-align: center;
+    font-family: avenir;
+    float: center;
+    font-size: 16px;
+    }
+ul.myUl{
+    text-align: center;
+    margin-left: 80px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 43px;
+    text-decoration: none;
+    float: center;
+}
+
+li a:hover:not(.active) {
+    background-color: #F7D8B7;
+}
+
+.active {
+    background-color: #F7D8B7;
+   
+}
+
+
+.input {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: repeat; /* Do not repeat the icon image */
+    width: 500%; /* Full-width */
+    text-align: center;
+    font-size: 18px; /* Increase font-size */
+    padding: 22px 30px 22px 50px; /* Add some padding */
+    border: 2px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+.container {
+    /* Remove default list styling */
+    margin: 5px;
+    padding-top: 100px;
+    float: left;
+    width: 100%;
+  }
+
+.desc{
+    list-style-type: none;
+    display: inline-flexbox;
+    float: left;
+    width: 200%;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 15px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.heading{
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 130px;
+    font-size: 40px;
+    font-style: italic; 
+    color: #2F373B;
+    text-decoration-thickness:inherit; 
+    text-decoration-color: black;
+}
+
+.description{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    text-align: right;
+    padding-right: 30px; 
+    padding-top: 10px;
+}
+.button1{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-thickness:inherit; 
+    text-decoration-color: black; 
+    font-style: italic; 
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+
+}
+
+.button{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-thickness:inherit; 
+    text-decoration-color: black; 
+    font-style: italic; 
+    text-align: center;
+    color: black;
+    padding: 10px 10px;
+    float: inherit;
+
+}
+  
+  
+.bold_description{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    font-weight: bolder;
+    text-align: center;
+    float: none;
+    padding-top: 150px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+.container2{
+    text-align: center;
+    padding-top: 150px;
+}
+.container1{ 
+    padding: 0;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    float: left;
+    text-align: left;
+}
+a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: 10px; /* Prevent double borders */
+    margin-left: 20px;
+   /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    width: 500px;
+    float: left;
+  }
+  
+a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+.navigation {
+    border: 1px solid beige; /* Add a border to all links */
+    margin-top: 5px;
+    margin-bottom:  10 px; /* Prevent double borders */
+    background-image: url("smoke.jpg") /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+     /* Make it into a block element to fill the whole list */
+     font-size: medium; 
+     font-family: 'Times New Roman', Times, serif; 
+     font-style: italic; 
+     font-weight: 300; 
+     text-align: center;
+}
+
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.pageLink{
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic;
+}
